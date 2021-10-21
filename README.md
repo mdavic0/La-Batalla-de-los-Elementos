@@ -1,4 +1,4 @@
-#La Batalla De Los Elementos
+# La Batalla De Los Elementos
 
 Para compilar abrir una terminar dentro del archivo src y utilizar la siguiente linea:
 g++ *.cpp -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system -o TP3
