@@ -1,9 +1,16 @@
 # La Batalla De Los Elementos
 
-Para compilar abrir una terminar dentro del archivo src y utilizar la siguiente linea:
-g++ *.cpp -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system -o TP3
+Para el trabajo utilizamos interfaz grafica SFML. Probablemente sea necesario instalar la libreria:
+```c++
+    sudo apt-get install libsfml-dev
+```
 
-Para ejecutar: ./TP3
+Para compilar situarse dentro de la carpeta "src" y por terminal utilizar la siguiente linea:
+```c++
+    g++ *.cpp -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system -o TP3
+```
 
-Si no compila puede que tenga que instalar algunas librerías por terminal:
-sudo apt-get install libsfml-dev
+Para ejecutar: 
+```c++
+    ./TP3
+```
